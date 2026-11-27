@@ -1,0 +1,44 @@
+# ==========================================
+# Gustaveo - Git ignore configuration
+# ==========================================
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js dependencies
+node_modules/
+
+# Python dependencies and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build and distribution
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Tests and coverage
+coverage/
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# IDE and editors
+.vscode/
+.idea/
+
+# Operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
